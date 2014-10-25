@@ -1,14 +1,15 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This two functions below do fasten the process of inversing a matrix  
+## by taking advantage of the caching techinque
 
-## Write a short comment describing this function
+## makeCacheMAtrix does create a special matrix object that caches the inverse of a given matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
 }
 
 
-## Write a short comment describing this function
+## cacheSolve does look into the cached matrix and if the current matrix is already cached, 
+## returns the cached inverse matrix. If not, does compute the inverse and return it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
